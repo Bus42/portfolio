@@ -5,7 +5,7 @@ export class Footer extends Component {
     render() {
         return (
             <div id="footer-wrapper">
-                <h2>Footer component works!</h2>
+                <footer><small>Greg Brewton Studio42 Web Development</small></footer>
             </div>
         );
     }

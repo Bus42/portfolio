@@ -1,7 +1,14 @@
 @import '../node_modules/font-awesome/css/font-awesome.css';
 
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+
 .App {
   text-align: center;
+}
+
+:root {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /*.App-logo {

@@ -1,3 +1,32 @@
+:root{
+    --button-spacing: 35vw;
+    --button-spacing-top: 25vh;
+}
+
 img {
-    max-width: 100%;
+    max-width: 800px;
+}
+
+button {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: cornflowerblue;
+    opacity: .6;
+    border: none;
+    border-radius: 100%;
+    font-size: 2em;
+    top: var(--button-spacing-top);
+    z-index: 10;
+}
+
+button:first-of-type {
+    right: var(--button-spacing);
+    padding: 3px 7px 0 0;
+}
+
+button:last-of-type {
+    left: var(--button-spacing);
+    padding: 3px 0 0 7px;
 }

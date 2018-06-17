@@ -1,5 +1,7 @@
 #footer-wrapper {
-    background-color: darkgoldenrod;
-    display: block;
     width: 100vw;
+    position: fixed;
+    background: transparent;
+    font-size: small;
+    bottom: 0;
 }
