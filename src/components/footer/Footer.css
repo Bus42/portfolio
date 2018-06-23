@@ -3,11 +3,12 @@
     font-size: xx-large;
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
 #footer-wrapper > a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .contact-link {

@@ -29,7 +29,7 @@ export class LogoBin extends Component {
                 };
         };
 
-        let rollOut = setInterval(showLogos, 650);
+        let rollOut = setInterval(showLogos, 300);
 
         window.onload = rollOut;
 

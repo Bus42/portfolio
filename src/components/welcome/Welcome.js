@@ -6,7 +6,7 @@ export class Welcome extends Component {
     render() {
         return (
             <div id="welcome-wrapper">
-                <h2>Welcome to Studio42!</h2>
+                <h2>Welcome to my portfolio</h2>
                 <img id="my-picture" src={me_on_yale} alt="Me on Mount Yale" />
                 <section className="section-text" >
                     <p>My name is Greg Brewton and I've been learning to code for about two years now. I built this page as a place to host a few of the apps I've built while learning from FreeCodeCamp, CoderCamps, and various other places.</p>

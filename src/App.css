@@ -1,7 +1,25 @@
+body {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
 
 .App {
   text-align: center;
+  background-color: black;
+  opacity: .8;
+  min-height: 100vh;
 }
+
+@media all and (min-width: 500px) {
+  .App-wrapper-inner {
+    width: 80vw;
+    margin-left: 10vw;
+  }
+
+}
+
 
 /*.App-logo {
   animation: App-logo-spin infinite 20s linear;
