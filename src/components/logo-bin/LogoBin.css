@@ -1,0 +1,10 @@
+#logoBin-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 65px;
+    padding: 8px;
+}
