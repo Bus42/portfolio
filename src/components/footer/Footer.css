@@ -2,10 +2,14 @@
     width: 100vw;
     font-size: xx-large;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #footer-wrapper > a {
     text-decoration: none;
     color: black;
+}
+
+.contact-link {
+    margin: 0 18px;
 }

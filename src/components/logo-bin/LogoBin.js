@@ -16,6 +16,23 @@ import sassLogo from '../../assets/sass.png';
 export class LogoBin extends Component {
     render() {
 
+        let counter = 0;
+        
+        function showLogos () {
+            let hiddenLogos = document.getElementsByClassName('logo');
+            let currentLogo = hiddenLogos[counter];
+                currentLogo.style.visibility = 'visible';
+                currentLogo.classList.add('animated', 'rotateIn');
+                counter++;
+                if (counter === hiddenLogos.length) {
+                    clearInterval(rollOut);
+                };
+        };
+
+        let rollOut = setInterval(showLogos, 650);
+
+        window.onload = rollOut;
+
         return (
             <div id="logoBin-wrapper" >
                 <img className="logo" src={babelLogo} alt='Babel logo' />
@@ -29,7 +46,6 @@ export class LogoBin extends Component {
                 <img className="logo" src={nodejsLogo} alt='Node JS logo' />
                 <img className="logo" src={reactLogo} alt='React JS logo' />
                 <img className="logo" src={sassLogo} alt='Sass logo' />
-
             </div>
         )
     }
