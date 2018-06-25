@@ -5,8 +5,7 @@ export class Header extends Component {
     render() {
         return (
             <div id="header-wrapper" >
-                <i id="menu-button" className="fa fa-bars" ></i>
-                <h1>Studio42</h1>
+                <span><small>Web </small></span><h1>Studio42</h1><span><small> Dev</small></span>
             </div>
         )        
     }

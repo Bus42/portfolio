@@ -1,9 +1,7 @@
 #footer-wrapper {
-    width: 100vw;
     font-size: xx-large;
     display: flex;
     justify-content: center;
-    width: 100vw;
 }
 
 #footer-wrapper > a {

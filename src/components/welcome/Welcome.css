@@ -1,3 +1,7 @@
+h2 {
+    color: #24e043;
+}
+
 .section-text {
     text-align: start;
     text-indent: 1em;
@@ -5,8 +9,9 @@
 }
 
 #my-picture {
-    width: 140px;
+    width: 150px;
     float: left;
     margin: 0 8px;
-    border-radius: 8px;
+    border-radius: 100%;
+    padding: 8px;
 }
