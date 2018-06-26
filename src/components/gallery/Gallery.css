@@ -28,7 +28,7 @@ a {
 
 .app-list-item-control {
     float: right;
-    padding: 8px;
+    font-size: 1.5em;
 }
 
 .app-list-image {

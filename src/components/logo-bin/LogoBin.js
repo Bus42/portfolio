@@ -12,6 +12,7 @@ import mongodbLogo from '../../assets/mongodb.png';
 import nodejsLogo from '../../assets/nodejs.png';
 import reactLogo from '../../assets/react.png';
 import sassLogo from '../../assets/sass.png';
+import angularLogo from '../../assets/angular.png';
 
 export class LogoBin extends Component {
     render() {
@@ -46,6 +47,7 @@ export class LogoBin extends Component {
                 <img className="logo" src={nodejsLogo} alt='Node JS logo' />
                 <img className="logo" src={reactLogo} alt='React JS logo' />
                 <img className="logo" src={sassLogo} alt='Sass logo' />
+                <img className="logo" src={angularLogo} alt='Angular logo' />
             </div>
         )
     }
