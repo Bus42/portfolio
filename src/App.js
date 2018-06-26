@@ -5,6 +5,7 @@ import { Header } from './components/header/Header';
 import { Welcome } from './components/welcome/Welcome';
 import { LogoBin } from './components/logo-bin/LogoBin';
 import { Footer } from './components/footer/Footer';
+import { Gallery } from './components/gallery/Gallery';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Header />
         <LogoBin />
         <Welcome />
+        <Gallery />
         <Footer />
         </div>
       </div>

@@ -1,5 +1,4 @@
 #header-wrapper {
-    color: #24c1e0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +14,5 @@
 }
 
 #header-wrapper > span {
-    color: #24e043;
     flex: 0 1 auto;
 }

@@ -1,0 +1,9 @@
+ul {
+    list-style-type: none;
+}
+
+figure > img {
+    width: 350px;
+    border-radius: 8px;
+    opacity: 1;
+}
