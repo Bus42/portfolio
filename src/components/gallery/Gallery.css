@@ -32,6 +32,10 @@ a {
     padding: 8px;
 }
 
+.app-list-image {
+    width: 100%;
+}
+
 figure {
     transition: height .2s ease-in-out;
 }
