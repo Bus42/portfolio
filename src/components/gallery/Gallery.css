@@ -1,5 +1,54 @@
+h3 {
+    text-align: start;
+}
+ 
 ul {
     list-style-type: none;
+    padding: 0;
+}
+
+.app-list-item {
+    background-color: #111;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.app-list-item-banner {
+    padding: 8px;
+}
+
+.app-list-item-banner > h4 {
+    display: inline;
+}
+
+.app-list-item-control {
+    float: right;
+    padding: 8px;
+}
+
+figure {
+    transition: height .2s ease-in-out;
+}
+
+figcaption {
+    text-align: start;
+    text-indent: 1em;
+    padding: 8px 0;
+}
+
+figure.collapsed {
+    height: 0px;
+    overflow: hidden;
+}
+
+figure.expanded {
+    height: 100vh;
 }
 
 figure > img {
