@@ -127,14 +127,12 @@ class App extends Component {
                     id={app.title}
                     eventKey={app.key}
                     key={app.key}
-                    style={{ backgroundColor: "black", color: "white" }}
                   >
                     <Panel.Heading style={{ textAlign: "left" }}>
                       <Panel.Title toggle>
-                        {" "}
                         <h3 style={{ display: "inline-block" }}>
                           {app.title}
-                        </h3>{" "}
+                        </h3>
                         <small>{app.brief}</small>
                       </Panel.Title>
                     </Panel.Heading>
