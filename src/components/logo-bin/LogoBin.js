@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './LogoBin.css';
-import '../../assets/bootstrap.png';
 import babelLogo from '../../assets/babel.png';
 import bootstrapLogo from '../../assets/bootstrap.png';
 import cssLogo from '../../assets/css3.svg';
@@ -14,8 +13,7 @@ import reactLogo from '../../assets/react.png';
 import sassLogo from '../../assets/sass.png';
 import angularLogo from '../../assets/angular.png';
 
-class LogoBin extends Component {
-    render() {
+let LogoBin = () => {
 
         let counter = 0;
         
@@ -50,7 +48,6 @@ class LogoBin extends Component {
                 <img className="logo" src={angularLogo} alt='Angular logo' />
             </div>
         )
-    }
 }
 
 export default LogoBin;
