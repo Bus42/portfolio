@@ -14,7 +14,7 @@ import reactLogo from '../../assets/react.png';
 import sassLogo from '../../assets/sass.png';
 import angularLogo from '../../assets/angular.png';
 
-export class LogoBin extends Component {
+class LogoBin extends Component {
     render() {
 
         let counter = 0;
@@ -52,3 +52,5 @@ export class LogoBin extends Component {
         )
     }
 }
+
+export default LogoBin;
