@@ -29,16 +29,24 @@ class App extends Component {
     super(props, context);
     this.state = {
       apps: [
-        {
-          key: 1,
-          href: "https://bus42.github.io/pomodoro/",
-          title: "Pomodoro Clock",
-          brief: "A time management app",
-          image: require("./assets/pomodoro.png"),
-          description:
-            "The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. These intervals are named pomodoros, the plural in English of the Italian word pomodoro (tomato), after the tomato-shaped kitchen timer that Cirillo used as a university student. I find this very useful when working on apps and coding challenges."
+        {//Magic Counter - Mobile
+          key: 8,
+          href: "https://magiccounter.studio42dev.com",
+          title: "Magic Counter",
+          brief: "A life counter for mobile devices.",
+          image: require("./assets/magic_counter.png"),
+          description: "This is the second version of this app that I have built. I wanted an app that functioned as a native app on mobile devices and could be packaged for mobile app stores on all platforms. It utilizes Google and Facebook analytics and uses Firebase for authentication and database integration. You can play anonymously and change your name, background, and avatar or create an account to keep track of wins and losses as well as your chosen customizations. Additional damage types may be selected as well. There is a walkthrough option in the menu to showcase the app's features."
         },
-        {
+        {//Magic Counter - Desktop
+          key: 7,
+          href: "https://bus42.github.io/mtg-counter/",
+          title: "MTG Counter",
+          brief: "A configurable multiplayer life counter for desktop",
+          image: require("./assets/mtgcounter.png"),
+          description:
+            "A life counter for games like Magic: The Gathering which allows one to choose the number of players, roll a D6, and change fonts, backgrounds, and player names."
+        },
+        {//Simon Game
           key: 2,
           href: "https://bus42.github.io/simonClone/",
           title: "Simon Game",
@@ -47,7 +55,7 @@ class App extends Component {
           description:
             "Play the classic Simon game! You can play in strict mode as well, where you lose if you get it wrong once. In regular mode you have three chances to match the pattern each time a button is added to the pattern. Get it right 20 rounds in a row and you win the game."
         },
-        {
+        {//TicTacToe
           key: 3,
           href: "https://bus42.github.io/tictactoe/",
           title: "Tic-Tac-Toe Game",
@@ -56,7 +64,16 @@ class App extends Component {
           description:
             "It's the classic game of Tic-Tac-Toe. Choose your team and beat the computer."
         },
-        {
+        {//Pomodoro Clock
+          key: 1,
+          href: "https://bus42.github.io/pomodoro/",
+          title: "Pomodoro Clock",
+          brief: "A time management app",
+          image: require("./assets/pomodoro.png"),
+          description:
+            "The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. These intervals are named pomodoros, the plural in English of the Italian word pomodoro (tomato), after the tomato-shaped kitchen timer that Cirillo used as a university student. I find this very useful when working on apps and coding challenges."
+        },
+        {//Calculator
           key: 4,
           href: "https://bus42.github.io/JSCalculator/",
           title: "JS Calculator",
@@ -65,7 +82,7 @@ class App extends Component {
           description:
             "This was built for FreeCodeCamp. While not a requirement for the assignment, I wanted to demonstrate use of CSS flexbox and vanilla JS - however, I did use math.js."
         },
-        {
+        {//Clock
           key: 5,
           href: "https://bus42.github.io/JSClock/",
           title: "CSS + JS Clock",
@@ -74,7 +91,7 @@ class App extends Component {
           description:
             "An analog clock designed with plain old javascript and CSS."
         },
-        {
+        {//Wikipedia Reader
           key: 6,
           href: "https://bus42.github.io/wiki-reader/",
           title: "Wikipedia Reader",
@@ -82,23 +99,6 @@ class App extends Component {
           image: require("./assets/wikireader.png"),
           description:
             "This app has a random page generator which will display a random Wikipedia article in a new window or allow you to enter any search term and show you the top ten rated results with a link that will open in another tab in your browser."
-        },
-        {
-          key: 7,
-          href: "https://bus42.github.io/mtg-counter/",
-          title: "MTG Counter",
-          brief: "A configurable multiplayer life counter",
-          image: require("./assets/mtgcounter.png"),
-          description:
-            "A life counter for games like Magic: The Gathering which allows one to choose the number of players, roll dice (d6 only for now), and change fonts, backgrounds, and player names."
-        },
-        {
-          key: 8,
-          href: "https://magiccounter.studio42dev.com",
-          title: "Magic Counter",
-          brief: "A life counter for mobile devices.",
-          image: require("./assets/magic_counter.png"),
-          description: ""
         }
       ]
     };
