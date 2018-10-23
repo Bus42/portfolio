@@ -1,7 +1,11 @@
 h1, h2, h3, h4, h5, h6 {
   color: #24c1e0;
-} small {
+  margin: 5px;
+}
+
+small {
   color: #24e043;
+  margin: 5px;
  }
 
 body {
@@ -34,4 +38,9 @@ a, a:hover {
 .panel, .panel-heading, .panel-body, .panel-group {
   background-color: black !important;
   border-color: #181818 !important;
+}
+
+p {
+  text-align: left;
+  text-indent: 1em;
 }

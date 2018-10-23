@@ -13,7 +13,7 @@ import reactLogo from '../../assets/react.png';
 import sassLogo from '../../assets/sass.png';
 import angularLogo from '../../assets/angular.png';
 
-let LogoBin = () => {
+const LogoBin = () => {
 
         let counter = 0;
         
