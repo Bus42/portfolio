@@ -38,7 +38,8 @@ class App extends Component {
           brief: "A life counter for mobile devices.",
           image: require("./assets/magic_counter.png"),
           description:
-            "This is the second version of this app that I have built. I wanted an app that functioned as a native app on mobile devices and could be packaged for mobile app stores on all platforms. It utilizes Google and Facebook analytics and uses Firebase for authentication and database integration. You can play anonymously and change your name, background, and avatar or create an account to keep track of wins and losses as well as your chosen customizations. Additional damage types may be selected as well. There is a walkthrough option in the menu to showcase the app's features."
+            "This is the second version of this app that I have built. I wanted an app that functioned as a native app on mobile devices and could be packaged for mobile app stores on all platforms. It utilizes Google and Facebook analytics and uses Firebase for authentication and database integration. You can play anonymously and change your name, background, and avatar or create an account to keep track of wins and losses as well as your chosen customizations. Additional damage types may be selected as well. There is a walkthrough option in the menu to showcase the app's features.",
+          iframe: false
         },
         {
           //Magic Counter - Desktop
@@ -48,7 +49,8 @@ class App extends Component {
           brief: "A configurable multiplayer life counter for desktop",
           image: require("./assets/mtgcounter.png"),
           description:
-            "A life counter for games like Magic: The Gathering which allows one to choose the number of players, roll a D6, and change fonts, backgrounds, and player names."
+            "A life counter for games like Magic: The Gathering which allows one to choose the number of players, roll a D6, and change fonts, backgrounds, and player names.",
+            iframe: true
         },
         {
           //Simon Game
@@ -58,7 +60,8 @@ class App extends Component {
           brief: "A Simon clone made for FreeCodeCamp",
           image: require("./assets/simon.png"),
           description:
-            "Play the classic Simon game! You can play in strict mode as well, where you lose if you get it wrong once. In regular mode you have three chances to match the pattern each time a button is added to the pattern. Get it right 20 rounds in a row and you win the game."
+            "Play the classic Simon game! You can play in strict mode as well, where you lose if you get it wrong once. In regular mode you have three chances to match the pattern each time a button is added to the pattern. Get it right 20 rounds in a row and you win the game.",
+            iframe: false
         },
         {
           //TicTacToe
@@ -68,7 +71,8 @@ class App extends Component {
           brief: "A simple game made for FreeCodeCamp",
           image: require("./assets/tictactoe.png"),
           description:
-            "It's the classic game of Tic-Tac-Toe. Choose your team and beat the computer."
+            "It's the classic game of Tic-Tac-Toe. Choose your team and beat the computer.",
+            iframe: true
         },
         {
           //Pomodoro Clock
@@ -78,7 +82,8 @@ class App extends Component {
           brief: "A time management app",
           image: require("./assets/pomodoro.png"),
           description:
-            "The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. These intervals are named pomodoros, the plural in English of the Italian word pomodoro (tomato), after the tomato-shaped kitchen timer that Cirillo used as a university student. I find this very useful when working on apps and coding challenges."
+            "The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. These intervals are named pomodoros, the plural in English of the Italian word pomodoro (tomato), after the tomato-shaped kitchen timer that Cirillo used as a university student. I find this very useful when working on apps and coding challenges.",
+            iframe: false
         },
         {
           //Calculator
@@ -88,7 +93,8 @@ class App extends Component {
           brief: "A calculator built with no frameworks or libraries.",
           image: require("./assets/JS_Calculator.png"),
           description:
-            "This was built for FreeCodeCamp. While not a requirement for the assignment, I wanted to demonstrate use of CSS flexbox and vanilla JS - however, I did use math.js."
+            "This was built for FreeCodeCamp. While not a requirement for the assignment, I wanted to demonstrate use of CSS flexbox and vanilla JS - however, I did use math.js.",
+            iframe: true
         },
         {
           //Clock
@@ -98,7 +104,8 @@ class App extends Component {
           brief: "A simple analog clock",
           image: require("./assets/JSclock.png"),
           description:
-            "An analog clock designed with plain old javascript and CSS."
+            "An analog clock designed with plain old javascript and CSS.",
+            iframe: false
         },
         {
           //Wikipedia Reader
@@ -108,7 +115,8 @@ class App extends Component {
           brief: "Fetches a list of articles or a random article",
           image: require("./assets/wikireader.png"),
           description:
-            "This app has a random page generator which will display a random Wikipedia article in a new window or allow you to enter any search term and show you the top ten rated results with a link that will open in another tab in your browser."
+            "This app has a random page generator which will display a random Wikipedia article in a new window or allow you to enter any search term and show you the top ten rated results with a link that will open in another tab in your browser.",
+            iframe: true
         }
       ]
     };

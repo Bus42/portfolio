@@ -2,7 +2,7 @@ import React from "react";
 import { Image } from 'react-bootstrap';
 
 let PanelBodyContent = ({app}) => {
-  if (window.screen.height > 1000 && window.screen.width > 1000) {
+  if (window.screen.height > 1000 && window.screen.width > 1000 && app.iframe) {
     return (
       <div className="embed-responsive embed-responsive-16by9">
         <iframe
