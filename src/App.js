@@ -187,7 +187,7 @@ class App extends Component {
           <div className="container-fluid">
             <PanelGroup id="app_panel" accordion>
               <h2>App showcase</h2>
-              <p>
+              <p className="large-screen-only">
                 Apps marked with a
                 <Glyphicon
                   glyph="star"
@@ -213,6 +213,7 @@ class App extends Component {
                             color: "#3b8996",
                             display: app.iframe === true ? "inline" : "none"
                           }}
+                          className="large-screen-only"
                         />
                       </Panel.Title>
                     </Panel.Heading>
