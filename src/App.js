@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { PanelGroup, Panel, Image } from "react-bootstrap";
+import { PanelGroup, Panel } from "react-bootstrap";
 //import logo from './logo.svg';
 import "./App.css";
 import Header from "./components/header/Header";
@@ -23,6 +23,7 @@ import wikireader from "./assets/wikireader.png";
 import mtgcounter from "./assets/mtgcounter.png";
 // eslint-disable-next-line
 import magic_counter from "./assets/magic_counter.png";
+import PanelBodyContent from "./components/panelBodyContent/PanelBodyContent";
 
 class App extends Component {
   constructor(props, context) {
@@ -123,27 +124,17 @@ class App extends Component {
             <PanelGroup id="app_panel" accordion>
               {this.state.apps.map(app => {
                 return (
-                  <Panel
-                    id={app.title}
-                    eventKey={app.key}
-                    key={app.key}
-                  >
+                  <Panel id={app.title} eventKey={app.key} key={app.key}>
                     <Panel.Heading style={{ textAlign: "left" }}>
                       <Panel.Title toggle>
-                        <h3 style={{ display: "inline-block" }}>
-                          {app.title}
-                        </h3>
+                        <h3 style={{ display: "inline-block" }}>{app.title}</h3>
                         <small>{app.brief}</small>
                       </Panel.Title>
                     </Panel.Heading>
                     <Panel.Body collapsible>
-                      <a href={app.href} target={app.title}>
-                        <Image
-                          rounded
-                          style={{ maxWidth: "90%" }}
-                          src={app.image}
-                        />
-                      </a>
+                      <PanelBodyContent
+                        app={app}
+                      />
                       <p>{app.description}</p>
                     </Panel.Body>
                   </Panel>
