@@ -24,6 +24,8 @@ import wikireader from "./assets/wikireader.png";
 import mtgcounter from "./assets/mtgcounter.png";
 // eslint-disable-next-line
 import magic_counter from "./assets/magic_counter.png";
+// eslint-disable-next-line
+import twitcher from "./assets/twitcher.png";
 
 class App extends Component {
   constructor(props, context) {
@@ -59,6 +61,23 @@ class App extends Component {
             </div>
           ),
           iframe: false
+        },
+        {
+          //Twitcher
+          key: 9,
+          href: "https://twitcher-c1978.firebaseapp.com/",
+          title: "Twitcher",
+          brief: "App for searching and viewing Twitch.tv users",
+          image: require("./assets/twitcher.png"),
+          description: (
+            <div>
+            <p>
+              Built as part of the FreeCodeCamp curriculum, this app displays a list of frequent Twitch.tv users, shows number of views and followers for each, if they are currently streaming, and their avatars using the Twitch.tv API. The app also has a feature which lets you search for other Twitch.tv users.
+            </p>
+              <p>This app uses jQuery and is hosted with firebase.</p>
+            </div>
+          ),
+          iframe: true
         },
         {
           //Magic Counter - Desktop
