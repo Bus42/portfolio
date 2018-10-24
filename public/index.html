@@ -9,6 +9,16 @@
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127734764-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-127734764-3');
+  </script>
+
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
   <!--
@@ -49,19 +59,19 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAcWlKcVNiFokwheCfDrTwnAwbpfCV8DbU",
-    authDomain: "portfolio-85d56.firebaseapp.com",
-    databaseURL: "https://portfolio-85d56.firebaseio.com",
-    projectId: "portfolio-85d56",
-    storageBucket: "portfolio-85d56.appspot.com",
-    messagingSenderId: "34575006540"
-  };
-  firebase.initializeApp(config);
-</script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAcWlKcVNiFokwheCfDrTwnAwbpfCV8DbU",
+      authDomain: "portfolio-85d56.firebaseapp.com",
+      databaseURL: "https://portfolio-85d56.firebaseio.com",
+      projectId: "portfolio-85d56",
+      storageBucket: "portfolio-85d56.appspot.com",
+      messagingSenderId: "34575006540"
+    };
+    firebase.initializeApp(config);
+  </script>
 </body>
 
 </html>
