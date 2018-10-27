@@ -146,7 +146,7 @@ class App extends Component {
               apps and coding challenges.
             </p>
           ),
-          iframe: false
+          iframe: true
         },
         {
           //Calculator
