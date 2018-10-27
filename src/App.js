@@ -74,7 +74,7 @@ class App extends Component {
             <p>
               Built as part of the FreeCodeCamp curriculum, this app displays a list of frequent Twitch.tv users, shows number of views and followers for each, if they are currently streaming, and their avatars using the Twitch.tv API. The app also has a feature which lets you search for other Twitch.tv users.
             </p>
-              <p>This app uses jQuery and is hosted with firebase.</p>
+              <p>This app uses jQuery and is hosted with Firebase.</p>
             </div>
           ),
           iframe: true
