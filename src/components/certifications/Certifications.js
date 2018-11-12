@@ -29,12 +29,27 @@ class Certifications extends React.Component {
             ]
         }
         }
-
+ 
+        
+        handleClick = (id) => {
+            let thisCert = document.getElementById(id);
+            if(thisCert.webkitRequestFullscreen){
+                thisCert.webkitRequestFullscreen();
+            }
+        }
     render() {
         return ( 
         <div id="certifications-wrapper" className="container-fluid">
         {this.state.certifications.map(certification => (
-            <a href={certification.url} target="Window42" alt={certification.name}><img className="certification" key={certification.title} alt={certification.title} src={certification.src}></img></a>
+            <img
+            id={certification.title}
+            className="certification" 
+            key={certification.title} 
+            alt={certification.name} 
+            src={certification.src}
+            title={`View original at ${certification.url}`}
+            onClick={(e)=>{this.handleClick(e.target.id)}}
+            ></img>
             ))}
         </div> );
     }
