@@ -5,3 +5,10 @@
     border-radius: 100%;
     padding: 8px;
 }
+#banner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: baseline;
+}

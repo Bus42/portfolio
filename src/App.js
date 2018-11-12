@@ -7,6 +7,7 @@ import Header from "./components/header/Header";
 import Welcome from "./components/welcome/Welcome";
 import LogoBin from "./components/logo-bin/LogoBin";
 import Footer from "./components/footer/Footer";
+import Certifications from "./components/certifications/Certifications";
 
 // eslint-disable-next-line
 import pomodoro from "./assets/pomodoro.png";
@@ -203,6 +204,7 @@ class App extends Component {
           <Header />
           <LogoBin />
           <Welcome />
+          <Certifications />
           <div className="container-fluid">
             <PanelGroup id="app_panel" accordion>
               <h2>App showcase</h2>
@@ -211,7 +213,7 @@ class App extends Component {
                 <Glyphicon
                   glyph="star"
                   style={{ color: "#3b8996", margin: "0", padding: "0" }}
-                />{" "}
+                />
                 can be interacted with without leaving the preview pane. Others
                 will open in a separate window.
               </p>
