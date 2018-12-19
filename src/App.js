@@ -36,7 +36,7 @@ class App extends Component {
         {
           //Magic Counter - Mobile
           key: 8,
-          href: "https://magiccounter.studio42dev.com",
+          href: "https://counter42.studio42dev.com",
           title: "Magic Counter",
           brief: "A life counter for mobile devices.",
           image: require("./assets/magic_counter.png"),
@@ -51,13 +51,11 @@ class App extends Component {
                 iteration.
               </p>
               <p>
-                Magic Counter utilizes Google and Facebook analytics and uses
-                Firebase for authentication and database integration. You can
-                play anonymously and change your name, background, and avatar or
+                Counter42 utilizes Google and Facebook analytics and uses
+                Firebase for authentication and database integration. You can change your name and background and
                 create an account to keep track of wins and losses as well as
                 your chosen customizations. Additional damage types may be
-                selected as well. There is a walkthrough option in the menu to
-                showcase the app's features.
+                selected as well.
               </p>
             </div>
           ),
